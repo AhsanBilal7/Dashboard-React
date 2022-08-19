@@ -1,0 +1,70 @@
+h6 {
+    margin: 0px;
+    padding: 0px;
+}
+.main {
+  background: #5b24e0;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: space-between;
+  border-radius:5px;
+  padding: 10px 10px;
+  text-align: left;
+  gap: 5px;
+}
+.clippath{
+    border-radius: 50px; ;
+    background-color: antiquewhite;
+    width: 20px;
+    height: 20px;
+}
+.mapitem{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    
+}
+.mapdiv {
+    gap: 5px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.one {
+    color: white;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+.chart{
+        width: 150px;
+        justify-content: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 20px;
+}
+
+.two{
+    /* border: 1px solid blue; */
+}
+.three{
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    margin-top:10px ;
+}
+.Third{
+    /* border: 1px solid #ff0000; */
+
+}
+

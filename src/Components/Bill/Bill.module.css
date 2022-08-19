@@ -1,0 +1,23 @@
+.main{
+    padding: 15px 20px;
+    background-color: #515151;
+    border-radius: 10px;
+    color: white;
+    text-align: left;
+}
+.mainitem p,.mainitem h6{
+    padding: 0px;
+    margin: 0px;
+}
+.mainitem{
+    /* padding: 5px 5px; */
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+
+    align-items: center;
+    color: white;
+    text-align: left;
+}
+.mainitem img{
+    width: 3vw;
+}

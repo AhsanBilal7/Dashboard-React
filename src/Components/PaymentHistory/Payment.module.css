@@ -1,0 +1,60 @@
+.downitem  p,h6{
+    padding: 0px;
+    margin: 0px;
+}
+.downitem button{
+    padding: 8px 10px;
+    width: 10vw;
+    color: white;
+    border-radius: 5px;
+}
+.main{
+
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    gap: 10px;
+    background: #000000;
+    color: white;
+    border-radius: 10px;
+    
+
+}
+.links{
+    display: flex;
+    gap: 20px;
+}
+.downitem{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 20px;
+
+    /* justify-content: space-between; */
+    text-align: left;
+}
+.downitem img{
+    width: 50px;
+
+
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    
+}
+.top{
+  
+    /* border: 1px solid red; */
+    align-items:center ;
+    display: flex;
+    justify-content: space-between;
+
+}
+.down{
+    
+    /* border: 1px solid red; */
+}

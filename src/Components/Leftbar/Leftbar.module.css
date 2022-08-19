@@ -1,0 +1,72 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+p {
+  padding: 0px;
+  margin: 0px;
+}
+.logoimage{
+  width: 90%;
+  display: flex;
+  padding-left: 20px;
+  
+}
+.logoimage img{
+  width: 10vw;
+}
+.top{
+  display: flex;
+  align-items: center;
+ width: 100%;
+ top: 0px;
+ padding: 5px 5px 5px 5px;
+  justify-content: center;
+  flex-direction: column;
+}
+.top p{
+  margin: 0px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.greet{
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  width: 14vw;
+  padding: 10px 10px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.bottom{
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 5px 10px;
+}
+.message {
+  text-align: left;
+}
+.bottomicon{
+  width: 0px;
+}
+.bottomOptions{
+  background-color: aliceblue;
+  display: flex;
+  gap: 25px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: rgb(855, 255, 255);
+  height: 7vh;
+  padding: 10px 10px;
+}

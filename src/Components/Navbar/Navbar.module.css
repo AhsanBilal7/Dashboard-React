@@ -1,0 +1,42 @@
+.main {
+  width: 100%;
+  height: 6vh;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icons {
+  display: flex;
+  gap: 15px;
+  padding-left: 180px;
+
+}
+.icons img {
+  width: 20px;
+  /* border: 1px solid red; */
+}
+.inputClass::placeholder {
+  font-size: 13px;
+  color: black;
+}
+.button {
+  padding: 0px 20px;
+  background: #5b24e0;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  height: 5vh;
+}
+.inputClass{
+  width: 200%;
+  height: 5vh;
+  left: 487px;
+  top: 23px;
+  outline: none;
+  padding: 5px 20px;
+  border: none;
+  background: #d9d9d9;
+  border-radius: 5px;
+}

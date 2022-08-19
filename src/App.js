@@ -1,24 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Layout from './Components/Layout/Layout.jsx'
 
 function App() {
   return (
+    <>
+
+      <div className='instruction'><h1 style={{fontSize:"30px"}}>Open Site in Desktop</h1></div>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Layout/>
     </div>
+    </>
   );
 }
 
